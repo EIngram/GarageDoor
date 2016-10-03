@@ -7,5 +7,5 @@ ACCESS = ''  # AWS_Access_Key
 SECRET = ''  # AWS_Secret_Key
 TopicARN = ''  # AWS Topic for SMS Message. Needs to contain all 6 Segment
 
-User = ''  # Nest Account Email Address
-Pass = ''  # Nest Account Password
+User = '123'  # Nest Account Email Address
+Pass = 'Test'  # Nest Account Password
