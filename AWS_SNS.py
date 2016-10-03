@@ -1,3 +1,4 @@
+# pip install boto3
 import boto3
 import time
 # setup AWS SNS
@@ -31,7 +32,7 @@ def publish():
     )
 
     c.publish(
-        TopicArn='arn:aws:sns:us-east-1:458816371970:GarageDoor',  # Your TopicARN from AWS
+        TopicArn='',  # Your TopicARN from AWS
         Message=Message_To_Send
     )
 
