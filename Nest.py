@@ -2,9 +2,11 @@
 # Function to update nest status to Home when garage door is opened
 # pip install python-nest
 import nest
+from Credentials import User, Pass
 
-User = ''  # Enter email address here or store in a config
-Pass = ''  # Enter your password or store in a config
+# User = ''  # Enter email address here or store in a config
+# Pass = ''  # Enter your password or store in a config
+
 
 N = nest.Nest(User, Pass)
 
