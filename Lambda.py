@@ -1,3 +1,7 @@
+# This code should be deployed on AWS Lambda
+# Create a skill to utilize this code in developer mode for free
+# Requires APP id on row 133
+
 from __future__ import print_function
 
 
