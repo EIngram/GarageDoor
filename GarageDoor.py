@@ -112,8 +112,6 @@ def SMS():  # Send a Text Message
 #
 # ---------------------------------------------- Main ------------------------------------------------------------------
 
-# Launch WebServer for API Calls from Lambda for Alexa
-get_status()
 
 while True:
     if GPIO.input(Door_Switch) == GPIO.LOW:  # Garage Door Sensor indicates opened

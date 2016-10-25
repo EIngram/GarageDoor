@@ -67,7 +67,8 @@ def get_status():
         result = status['Door'][0]['Status']
         return result
     except requests.exceptions.ConnectionError as e:
-        result = "Hmm... The Garage has a connection error"
+        result = "Hmm... The Garage seems to have a connection error "\
+                "please try again"
         return requests
 
 
