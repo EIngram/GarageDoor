@@ -1,7 +1,8 @@
 # This code should be deployed on AWS Lambda
 # Has no effect on the Raspberry Pi
 # Create a skill to utilize this code in developer mode for free
-# Requires APP id on row 133
+# Requires APP id on row 11
+# Requires IP Address on row 10
 
 from __future__ import print_function
 import requests, json
