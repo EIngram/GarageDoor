@@ -56,7 +56,7 @@ def check_status():  # Log Status
         st = "The Garage Door Is Closed"
         im = "None"
         ra = "None"
-        insert_logs(lt,st,im,ra)  # insert into database
+        insert_logs(lt, st, im, ra)  # insert into database
         StatusCheck = Status
     if Status == 0 and StatusCheck == 1:
         # Log Status as Open
